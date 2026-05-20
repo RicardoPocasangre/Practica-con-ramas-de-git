@@ -11,5 +11,8 @@ cout<<"ingrese el segundo numero";
 cin>>n2; 
 sum = n1 + n2; 
 
+if ( sum > 0 ) {
+cout<<"El numero es positivo"; 
+}
     return 0;
 }
