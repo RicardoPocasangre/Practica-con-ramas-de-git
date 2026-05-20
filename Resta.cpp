@@ -12,6 +12,8 @@ int main()
     resta = a - b;
 
     cout << "su resultado es de: " << resta << endl;
+    cout << "valor a:" << a << endl;
+    cout << "valor b:" << b << endl;
 
     return 0;
 }
