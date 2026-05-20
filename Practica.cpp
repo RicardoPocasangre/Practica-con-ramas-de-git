@@ -1,5 +1,5 @@
 #include <iostream>
-#include <windows.h>
+
 using namespace std;
 
 int opc = 1;
@@ -7,7 +7,6 @@ float n, suma;
 
 int main()
 {
-    SetConsoleOutputCP(CP_UTF8);
 
     while (opc <= 5)
     {
