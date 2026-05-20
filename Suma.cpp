@@ -9,7 +9,7 @@ cout<<"ingrese el primer numero";
 cin>>n1; 
 cout<<"ingrese el segundo numero"; 
 cin>>n2; 
-sum = n1 + n2; 
+sum = n1 + n2;
 
     return 0;
 }
