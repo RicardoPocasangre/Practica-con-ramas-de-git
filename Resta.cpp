@@ -9,9 +9,16 @@ int main()
     cin >> a;
     cin >> b;
 
-    resta = a - b;
+    if (a < 0 || b < 0)
+    {
+        cout << "ingrese valores positivos";
+    }
+    else
+    {
+        resta = a - b;
 
-    cout << "su resultado es de: " << resta << endl;
+        cout << "su resultado es de: " << resta << endl;
+    }
 
     return 0;
 }
