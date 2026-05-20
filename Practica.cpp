@@ -7,7 +7,6 @@ float n, suma;
 
 int main()
 {
-    SetConsoleOutputCP(CP_UTF8);
 
     while (opc <= 5)
     {
